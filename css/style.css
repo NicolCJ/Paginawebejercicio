@@ -1,0 +1,290 @@
+.btn-primary-p{
+    padding: 12px 40px;
+    color: #fff;
+    background: #f05c5c;
+    border-radius: 10px;
+    text-decoration: none;
+    font-size: 20px;
+    margin: 10px;
+}
+.btn-primary-p:hover{
+    background: #fff;
+    border-radius: 0;
+}
+
+.bg-portafolio-nav{
+    background: rgb(255, 255, 255);
+}
+
+#services{
+    text-align: center;
+    padding: 60px 0;
+    background: rgba(128, 128, 128, 0.134);
+}
+
+#services h2{
+    margin-bottom: 60px;
+    color: coral;
+}
+
+#about{
+    margin: 60px 0;
+}
+
+#about h2{
+    color: rgb(42, 151, 173);
+}
+
+footer{
+    background: black;
+    color: aliceblue;
+    text-align: center;
+    padding: 60px;
+}
+
+#caruselHeroCaptions .carusel-caption{
+    bottom: 50%;
+}
+#caruselHeroCaptions .carusel-caption h5{
+    font-size: 50px;
+}
+#caruselHeroCaptions .carusel-caption p{
+    font-size: 25px;
+}
+#caruselHeroCaptions .carusel-indicators{
+    bottom: 46%;
+
+}
+#caruselHeroCaptions .carusel-indicators button{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%
+    
+}
+
+#about img{
+    width: 500px;
+    max-width: 100%;
+
+}
+#services .item-servicio{
+    padding-bottom: 20px;
+    padding-top: 10px;
+    transition: 5s;
+
+}
+#services .item-servicio:hover{
+    -webkit-box-shadow: 48px 56px 28px -32px rgba(0,0,0,0.63);
+    -moz-box-shadow: 48px 56px 28px -32px rgba(0,0,0,0.63);
+    box-shadow: 48px 56px 28px -32px rgba(0,0,0,0.63);
+}
+
+.whatsapp{
+    position: fixed;
+    z-index: 99;
+    right: 10px;
+    bottom: 10px;
+    transition: 5s;
+}
+
+.whatsapp:hover{
+    -webkit-box-shadow: 16px 37px 28px -32px rgba(0,0,0,0.63);
+-moz-box-shadow: 16px 37px 28px -32px rgba(0,0,0,0.63);
+box-shadow: 16px 37px 28px -32px rgba(0,0,0,0.63);
+}
+
+#javascrip{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    padding: 120px 0;
+    background-color: black;
+     overflow: hidden; 
+    z-index: 0;
+
+}
+
+#panel-lateral{
+    width: 30%;
+    height: 100vh;
+    background: #000000ec;
+    position: absolute;
+    left: -30%;
+    top: 0;
+    z-index: 9;
+    transition: .5s;
+
+
+}
+#panel-lateral.active{
+    left: 0;
+}
+
+#panel-lateral .close-panel{
+    position: absolute;
+    right: 30px;
+    top: 30px;
+
+}
+
+#panel-lateral h3{
+    margin-top: 50px;
+    text-align: center;
+    color: #fff;
+}
+
+#panel-lateral ul{
+    width: 60%;
+    margin: 100px auto;
+}
+
+#panel-lateral li{
+    list-style: none;
+    text-align: center;
+}
+
+#panel-lateral li a{
+    text-decoration: none;
+    display: block;
+    padding: 12px;
+    background: black;
+    border: 1px solid #fff;
+    color: antiquewhite;
+    margin: 15 px 0;
+}
+
+
+#panel-superior{
+    width: 100%;
+    height: 30vh;
+    background: #000000ec;
+    position: absolute;
+    left: 0;
+    top: -60%;
+    z-index: 9;
+    transition: .5s;
+
+
+}
+#panel-superior.active{
+    top: 0;
+}
+
+#panel-superior .close-panel{
+    position: absolute;
+    right: 10px;
+    top: 10px;
+
+}
+
+#panel-superior h3{
+    margin-top: 50px;
+    text-align: center;
+    color: #fff;
+}
+
+#panel-superior ul{
+    width: 60%;
+    margin: 100px auto;
+}
+
+#panel-superior li{
+    list-style: none;
+    text-align: center;
+}
+
+#panel-superior li a{
+    text-decoration: none;
+    display: block;
+    padding: 12px;
+    background: black;
+    border: 1px solid #fff;
+    color: antiquewhite;
+    margin: 15 px 0;
+}
+#javascrip h2{
+    color: #f05c5c;
+    margin-bottom: 70px;
+}
+
+#javascrip button{
+    background-color: #f05c5c;
+    color: #fff;
+    text-transform: uppercase;
+    border: 1px solid #f05c5c;
+    font-size: 20px;
+    transition: 0.5s;
+    margin: 10px;
+   
+   
+}
+
+#javascrip button:hover{
+    background: #fff;
+    color: black;
+
+}
+
+#javascrip hr{
+    border-color: #fff;
+}
+
+#figura{
+    width: 200px;
+    height: 200px;
+    background: rgb(255, 255, 255);
+    margin: 40px auto ;
+    transition: 0.5s;
+}
+
+#figura.circulo{
+    border-radius: 50%;
+    transform: rotate(-360deg);
+    background: beige;
+
+}
+
+#figura.Top{
+    transform: translateY(-100px);
+}
+
+#figura.horizontal{
+    width: 300px;
+    background: beige;
+}
+
+#figura.vertical{
+    height: 300px;
+}
+
+#figura.Gif{
+    background: url(../img/roger-american.gif);
+    background-size: cover;
+}
+
+#figura.left{
+    transform: translateX(-100px);
+}
+#figura.right{
+    transform: translateX(-100px);
+}
+#figura.degradado{
+    background: linear-gradient(#fff, #f05c5c);
+}
+
+#figura.rombo{
+    transform: rotate(50deg) ;
+ 
+}
+
+#figura.triangulo{
+    width: 0 ;
+    right: 0;
+    border-left: 100px solid transparent;
+    border-right: 100px solid transparent;
+    border-bottom: 200px solid rgb(255, 0, 0);
+
+    background: black;
+ 
+}
+
